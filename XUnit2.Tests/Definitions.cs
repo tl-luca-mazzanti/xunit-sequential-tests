@@ -1,4 +1,4 @@
-namespace Common
+namespace XUnit2.Tests
 {
     public static class Definitions
     {
