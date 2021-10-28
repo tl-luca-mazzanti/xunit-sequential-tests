@@ -37,7 +37,6 @@ There are 3 projects
   [Configure a test run](https://github.com/Microsoft/vstest-docs/blob/master/docs/configure.md)
   
   [Passing runsettings arguments through commandline](https://github.com/Microsoft/vstest-docs/blob/master/docs/RunSettingsArguments.md)
-- TODO: understand what is the console runner used by dotnet test and disable parallelization.
 
 ## Solution
 See the open PR and choose a viable solution between them.
