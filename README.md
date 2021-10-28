@@ -1,4 +1,5 @@
 # Run xUnit sequential tests across multiple assemblies
+See [this](https://paper.dropbox.com/doc/Spike-Isolate-integration-tests--BVAQmTw~Z51wh1rLpmxwxvy2Ag-NkGJnNABk0xHW7AXFPZHX) document for an in depth analysis of the real use case scenario that lead to that spike. 
 
 ## Main goal
 The goal is to call dotnet test at solution level ( `dotnet test` ) and run tests for each assembly sequentially.
@@ -37,3 +38,6 @@ There are 3 projects
   
   [Passing runsettings arguments through commandline](https://github.com/Microsoft/vstest-docs/blob/master/docs/RunSettingsArguments.md)
 - TODO: understand what is the console runner used by dotnet test and disable parallelization.
+
+## Solution
+See the open PR and choose a viable solution between them.
